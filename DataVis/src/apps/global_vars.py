@@ -19,9 +19,11 @@ barchart_col = 'Barchart'
 map_col = 'Map'
 piechart_col = 'Piechart'
 
-mongo_client = py.MongoClient('mongodb+srv://root:cF6GmLI5@datavisualization.gpyo0.mongodb.net/' + db_name + '?retryWrites=true&w=majority')
+# Placeholders for access control and authorisation tokens
 
-access_token = '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'
+# mongo_client = py.MongoClient('mongodb+srv://<username:password>@datavisualization.gpyo0.mongodb.net/' + db_name + '?retryWrites=true&w=majority')
+# access_token = '<GitHub Access Token'
+
 headers = {'Authorization':"Token " + access_token}
 
 barchart_csv = 'Barchart.csv'
